@@ -15,6 +15,7 @@
 
 
 ### _- SOFTWARE DE DESARROLLO_
+###### El software de desarrollo, también conocido como herramientas de desarrollo de software o entornos de desarrollo integrado (IDE), se refiere a una categoría de aplicaciones diseñadas para ayudar a los desarrolladores a crear, depurar, mantener y soportar otros programas y aplicaciones. Estas herramientas proporcionan un conjunto de funcionalidades que facilitan el proceso de desarrollo de software.
 
 ## HARDWARE:
 ##### El hardware se compone de:
