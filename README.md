@@ -1,20 +1,20 @@
 # **SOFTWARE Y HARDWARE**
 ## SOFTWARE:
 
-### _- SISTEMA OPERATIVO:_
+### _SISTEMA OPERATIVO:_
 ###### Es un conjunto de programas que permite manejar la memoria, disco, medios de almacenamiento de información y los diferentes periféricos o recursos de nuestra computadora, como son el teclado, el mouse, la impresora, la placa de red, entre otros.Se ocupa de gestionar la memoria de nuestro sistema y la carga de los diferentes programas, para ello cada programa tiene una prioridad o jerarquía y en función de la misma contará con los recursos de nuestro sistema por más tiempo que un programa de menor prioridad.
 
 
-### _- APLICACIONES DE USUARIO:_
+### _APLICACIONES DE USUARIO:_
 ###### Una aplicación es un programa diseñado como herramienta para permitir a un usuari0 realiar uno o diversos tipos de programas, como los sistemas operativos, las utilidades, y las herramientas de desarrollo de software
 
 
-### _- DRIVERS:_
+### _DRIVERS:_
 ###### Es un software o programa que  sirve de intermediario entre un dispositivo de hardware y el sistema operativo.  Su finalidad es la de permitir extraer el máximo de las funcionalidades del dispositivo para el cual ha sido diseñado.
 
 
 
-### _- SOFTWARE DE DESARROLLO_
+### _SOFTWARE DE DESARROLLO_
 ###### El software de desarrollo, también conocido como herramientas de desarrollo de software o entornos de desarrollo integrado (IDE), se refiere a una categoría de aplicaciones diseñadas para ayudar a los desarrolladores a crear, depurar, mantener y soportar otros programas y aplicaciones. Estas herramientas proporcionan un conjunto de funcionalidades que facilitan el proceso de desarrollo de software.
 
 ## HARDWARE:
