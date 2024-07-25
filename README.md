@@ -76,6 +76,70 @@
 #### _Diagrama que resume la informaación presentada:_
 ![alt text](<Hardware y software.png>)
 
+### _¿Cómo interactúa el hardware con el software, cuál es la función de cada uno?_
+###### El hardware y el software interactúan de manera simbiótica, el hardware proporciona la capacidad física necesaria, mientras que el software ofrece las instrucciones y la lógica para realizar diversas tareas.
+###### Ambos son indispensables y dependen el uno del otro para un rendimiento óptimo.
+![alt text](image-15.png)
+
+### _¿Cuál es la función de la CPU y cuáles son sus partes más importantes?_
+
+###### La **Unidad Central de Procesamiento (CPU)**, conocida como el "cerebro" del computador, es responsable de ejecutar las instrucciones de los programas y realizar cálculos. Sus funciones principales incluyen:
+
+- ###### **Interpretar y ejecutar instrucciones**: La CPU toma las instrucciones de los programas almacenados en la memoria, las decodifica y las ejecuta.
+- ###### **Realizar operaciones aritméticas y lógicas**: Utiliza la Unidad Aritmética Lógica (ALU) para llevar a cabo operaciones matemáticas y lógicas.
+- ###### **Controlar el flujo de datos**: La Unidad de Control coordina las actividades de los demás componentes del sistema, asegurando que las instrucciones se ejecuten en el orden correcto.
+
+### Partes más importantes de la CPU:
+
+1. ###### **Núcleo (Core)**: Es la unidad básica que interpreta y ejecuta instrucciones. Los procesadores modernos pueden tener múltiples núcleos, lo que permite realizar varias tareas simultáneamente.
+2. ###### **Unidad de Control**: Extrae las instrucciones de la memoria, las decodifica y las ejecuta, coordinando las operaciones del sistema.
+3. ###### **Unidad Aritmética Lógica (ALU)**: Realiza operaciones matemáticas y lógicas entre los datos.
+4. ###### **Memoria Caché**: Almacena datos temporales para un acceso rápido, mejorando la eficiencia del procesamiento.
+5. ###### **Registros**: Pequeñas unidades de almacenamiento dentro de la CPU que contienen datos e instrucciones que se están utilizando actualmente.
+6. ###### **Bus**: Sistema de comunicación que transfiere datos entre la CPU y otros componentes del sistema.
+![alt text](image-17.png)
+
+### _¿Qué es la velocidad de la CPU, también conocida como velocidad del reloj?_
+###### Se refiere a la frecuencia a la que la unidad central de procesamiento (CPU) ejecuta sus operaciones básicas. Se mide en **gigahercios (GHz)**, donde cada gigahercio equivale a mil millones de ciclos por segundo.
+
+##### **Importancia de la Velocidad del Reloj**
+- ###### **Rendimiento**: Una mayor velocidad del reloj permite que la CPU procese más instrucciones por segundo, lo que generalmente se traduce en un mejor rendimiento del sistema.
+- ###### **Eficiencia**: La velocidad del reloj, junto con la arquitectura del procesador y otros factores como la cantidad de núcleos, determina la eficiencia con la que la CPU puede manejar tareas complejas.
+![alt text](image-18.png)
+
+### _¿Cuál es la secuencia de pasos que ocurre, desde el momento en que presionas el botón de encendido de la computadora, hasta que se muestra el sistema operativo listo para funcionar?_
+###### 
+
+1. ###### **Presionar el Botón de Encendido**:
+   ###### Al presionar el botón de encendido, la fuente de alimentación (PSU) suministra energía a todos los componentes del sistema.
+
+2. ###### **Power-On Self-Test (POST)**:
+   ###### La BIOS (Sistema Básico de Entrada/Salida) o UEFI (Interfaz de Firmware Extensible Unificada) realiza una serie de pruebas para verificar que el hardware esencial (como la memoria RAM, el procesador y los dispositivos de almacenamiento) funcione correctamente.
+
+3. ###### **Inicialización del BIOS/UEFI**:
+   ###### La BIOS/UEFI configura y inicializa el hardware del sistema. Esto incluye la configuración de la memoria, la detección de dispositivos de almacenamiento y la configuración de otros periféricos.
+
+4. ###### **Búsqueda del Dispositivo de Arranque**:
+   ###### La BIOS/UEFI busca en la lista de dispositivos de arranque (como discos duros, SSDs, unidades USB) hasta encontrar uno con un registro de arranque maestro (MBR) o una tabla de particiones GUID (GPT) válida.
+
+5. ###### **Carga del Gestor de Arranque (Bootloader)**:
+   ###### El gestor de arranque, como BOOTMGR para Windows o GRUB para Linux, se carga en la memoria y toma el control del proceso de arranque.
+
+6. ###### **Carga del Sistema Operativo**:
+   ###### El gestor de arranque carga el núcleo del sistema operativo (kernel) en la memoria RAM y transfiere el control al sistema operativo.
+
+7. ###### **Inicialización del Sistema Operativo**:
+   ###### El sistema operativo inicializa sus propios controladores y servicios, configura el entorno de usuario y carga las aplicaciones necesarias para el funcionamiento básico.
+
+8. ###### **Pantalla de Inicio de Sesión**:
+   ###### Finalmente, el sistema operativo muestra la pantalla de inicio de sesión o el escritorio, listo para que el usuario interactúe con el sistema.
+   ![alt text](image-19.png)
+
+### _Comentarios de la actividad:_
+###### Me considero una persona con nulo conocimiento técnico informático, debido a esto casi la totalidad de la actividad me enseñó conceptos nuevos.
+###### Como por ejemplo todo lo que ocurre al momento de encender el computador que a ojos de un mortal parecería ser algo simple por el corto tiempo que transcurre en el encendido, sin embargo es todo lo contrario.
+###### Considero que la actividad fue beneficiosa y conveniente para futuras ocasiones en mi vida, como lo puede ser comprar las piezas de mi propio PC personalizado ;) .
+
 #### REFERENCIAS:
 - [Extraido de https://advantecnia.com/tipos-de-buses-de-comunicacion/#:~:text=Un%20bus%20de%20datos%20o,propios%20dispositivos%20hacia%20el%20ordenador.](https://advantecnia.com/tipos-de-buses-de-comunicacion/#:~:text=Un%20bus%20de%20datos%20o,propios%20dispositivos%20hacia%20el%20ordenador.)
 - [Extraido de https://desarrollarinclusion.cilsa.org/tecnologia-inclusiva/que-es-un-sistema-operativo/](https://desarrollarinclusion.cilsa.org/tecnologia-inclusiva/que-es-un-sistema-operativo/)
@@ -87,3 +151,9 @@
 - [Extraido de https://www.xataka.com/basics/memoria-ram-que-sirve-como-mirar-cuanta-tiene-tu-ordenador-movil](https://www.xataka.com/basics/memoria-ram-que-sirve-como-mirar-cuanta-tiene-tu-ordenador-movil)
 - [Extraido de https://www.pccomponentes.com/que-es-una-placa-base-tipos-instalar](https://www.pccomponentes.com/que-es-una-placa-base-tipos-instalar)
 - [Extraido de https://www.ceupe.com/blog/periferico.html?dt=1721786290381](https://www.ceupe.com/blog/periferico.html?dt=1721786290381)
+- [Extraido de https://tutomaniac.com/como-funciona-el-hardware-y-el-software-juntos/](https://tutomaniac.com/como-funciona-el-hardware-y-el-software-juntos/)
+
+- [Extraido de https://concepto.de/cpu/](https://concepto.de/cpu/)
+- [Extraido de https://www.pccomponentes.com/partes-de-un-cpu](https://www.pccomponentes.com/partes-de-un-cpu)
+- [Extraido de https://adictec.com/que-es-reloj-procesador/](https://adictec.com/que-es-reloj-procesador/)
+- [Extraido de https://administraciondesistemas.com/secuencia-arranque-ordenador-boot/](https://administraciondesistemas.com/secuencia-arranque-ordenador-boot/)
