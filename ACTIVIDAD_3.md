@@ -33,6 +33,7 @@ Fin
 #### María tiene un registro de las velocidades a las que ha conducido su vehículo y el tiempo que ha mantenido cada velocidad. Quiere calcular la distancia total recorrida.
 
 ```
+Inicio
 escribir "Ingrese la cantidad de registros de velocidad y tiempo: "
 leer cantidad_registros
 
@@ -47,5 +48,26 @@ para i en rango(0, cantidad_registros):
   distancia_total += distancia
 
 escribir "La distancia total recorrida es: " + distancia_total
+Fin
+```
+# Problema de clase
 
+```
+Inicio
+leer h_estacionamiento
+
+si h_estacionamiento <= 2 entonces
+  costo = h_estacionamiento * 5.00
+si no 
+    si h_estacionamiento <= 5 entonces
+  costo = (2 * 5.00) + ((h_estacionamiento - 2) * 4.00)
+si no 
+    si h_estacionamiento <= 10 entonces
+  costo = (2 * 5.00) + (3 * 4.00) + ((h_estacionamiento - 5) * 3.00)
+si no
+  costo = (2 * 5.00) + (3 * 4.00) + (5 * 3.00) + ((h_estacionamiento - 10) * 2.00)
+
+escribir "El costo total es: " + costo
+Fin
+```
 
