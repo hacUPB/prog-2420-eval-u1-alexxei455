@@ -50,6 +50,9 @@ para i en rango(0, cantidad_registros):
 escribir "La distancia total recorrida es: " + distancia_total
 Fin
 ```
+<<<<<<< HEAD
+# Problema de clase
+=======
 
 # Problema 5
 #### Luis está participando en un torneo de bolos y quiere calcular su puntaje total. Tiene una lista de las puntuaciones de cada tiro y necesita sumar los puntos siguiendo las reglas del juego.
@@ -81,5 +84,24 @@ INICIO
 
     IMPRIMIR "El puntaje total de Luis es: " + puntaje_total
 FIN
+>>>>>>> 64244556bde57d8028ff03e34b85d0333afd84cf
 
+```
+Inicio
+leer h_estacionamiento
+
+si h_estacionamiento <= 2 entonces
+  costo = h_estacionamiento * 5.00
+si no 
+    si h_estacionamiento <= 5 entonces
+  costo = (2 * 5.00) + ((h_estacionamiento - 2) * 4.00)
+si no 
+    si h_estacionamiento <= 10 entonces
+  costo = (2 * 5.00) + (3 * 4.00) + ((h_estacionamiento - 5) * 3.00)
+si no
+  costo = (2 * 5.00) + (3 * 4.00) + (5 * 3.00) + ((h_estacionamiento - 10) * 2.00)
+
+escribir "El costo total es: " + costo
+Fin
+```
 
